@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .card-body ul {
+    padding-left: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  path.icon-linkedin:hover {
+    color: #0077b5; 
+  }
+  
+  path.icon-github:hover {
+    color: #333; 
+  }
+  
+  path.icon-codeforces:hover {
+    color: #1f8acb; 
+  }
+  
+  path.icon-leetcode:hover {
+    color: #f89f1b; 
+  }
+  
+  path.icon-hackerrank:hover {
+    color: #2ec866; 
+  }
+  
